@@ -285,10 +285,6 @@ header span.strong-year {
     color: white;
 }
 
-div.progress-bar {
-    display: none; float: left; position:sticky; left:0; top:0; width:50px; height:100vh; background:#2e3d8b; z-index:100; color: white
-}
-
 /* SCROLL-SPECIFIC ELEMENTS */
 
 svelte-scroller-background-container {
@@ -353,14 +349,8 @@ div.img-filler-text p {
 }
 
 @media (min-width: 992px) {
-	nav {
-	    margin-left: 50px;
-    }
 	div.progress-bar {
 	    display: block;
-    }
-    div.foreground {
-        margin-left: 50px;
     }
     .col-wide {
         padding: 0 24px;
@@ -373,7 +363,7 @@ div.img-filler-text p {
         margin: 0 auto 0 8px;
     }
 	.progress-bar-width-margin {
-	    padding-left: 82px;
+	    padding-left: 32px;
 	    padding-right: 32px;
     }
 	.splitscreen svelte-scroller-background {

@@ -30,7 +30,6 @@
 <ONSHeader {theme} filled={true} center={false} census={true}/>
 
 <div style="position: relative">
-    <ProgressBar {index} {count}/>
     <Scroller {threshold} bind:index bind:count>
         <div class="foreground" slot="foreground">
             <Header theme="dark" bgcolor="#206095" bgfixed={true} bggradient={"linear-gradient(to right, #2e3d8b , #8c1e7f)"}  center={false} short={true}>
