@@ -98,6 +98,16 @@ img {
   vertical-align: middle;
 }
 
+.theme-dark {
+  color: #fff;
+  background-color: #2e3d8b;
+}
+
+.theme-story_of_census {
+  color: #2d3c89;
+  background-color: #d6d8e8;
+}
+
 .census-gradient {
   color: #fff;
   background-color: #206095;
@@ -319,75 +329,77 @@ footer a .logo-img:hover {
   padding: 12px 24px;
 }
 
-section.s-l1TQzc9plh7y.s-l1TQzc9plh7y {
+section.img-filler-section {
   padding: 0;
   margin-top: 36px;
+  color: #2d3c89;
+  background-color: #fff;
 }
 
-.img-filler-div.s-l1TQzc9plh7y.s-l1TQzc9plh7y {
+.img-filler-section .img-filler-div {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
 }
 
-.img-filler-gradient-bar.s-l1TQzc9plh7y.s-l1TQzc9plh7y {
+.img-filler-section .img-filler-gradient-bar {
   height: .8em;
   padding: 0;
   background-image: linear-gradient(to right, #2e3d8b , #8c1e7f);
 }
 
-.img-filler-text.s-l1TQzc9plh7y.s-l1TQzc9plh7y {
+.img-filler-section .img-filler-text {
   flex-grow: 1;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 18px;
 }
 
-.img-filler-img.s-l1TQzc9plh7y.s-l1TQzc9plh7y {
+.img-filler-section .img-filler-img {
   padding: 0;
   flex-grow: 1.8;
 }
 
-.img-filler-img.s-l1TQzc9plh7y img.s-l1TQzc9plh7y {
+.img-filler-section .img-filler-img img {
   width: 100%;
   display: block;
   margin: 0 auto;
 }
 
-.img-filler-img.narrow-img.s-l1TQzc9plh7y img.s-l1TQzc9plh7y {
+.img-filler-section .img-filler-img.narrow-img img {
   width: 80%;
 }
 
 @media (min-width: 600px) {
-  .img-filler-div.s-l1TQzc9plh7y.s-l1TQzc9plh7y {
+  .img-filler-section .img-filler-div {
     padding: 0;
     display: flex;
     flex-wrap: nowrap;
   }
 
-  .img-filler-text.s-l1TQzc9plh7y.s-l1TQzc9plh7y {
+  .img-filler-section .img-filler-text {
     padding-right: 24px;
     flex: 40%;
   }
 
-  .img-filler-img.s-l1TQzc9plh7y.s-l1TQzc9plh7y {
+  .img-filler-section .img-filler-img {
     padding: 12px;
     flex: 60%;
   }
 
-  .img-filler-img.s-l1TQzc9plh7y img.s-l1TQzc9plh7y,  .img-filler-img.narrow-img.s-l1TQzc9plh7y img.s-l1TQzc9plh7y {
+  .img-filler-section .img-filler-img img, .img-filler-section .img-filler-img.narrow-img img {
     width: 100%;
     display: block;
     margin: 0;
   }
 }
 
-.img-filler-div.s-l1TQzc9plh7y h2 {
+.img-filler-section .img-filler-div h2 {
   font-style: italic;
   color: #414042;
 }
 
-.img-filler-div.s-l1TQzc9plh7y p {
+.img-filler-section .img-filler-div p {
   color: #414042;
 }
 
