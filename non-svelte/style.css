@@ -403,7 +403,7 @@ section.img-filler-section {
   color: #414042;
 }
 
-.img-filler-img.fullWidth.s-GIWVz70Z76TB {
+.img-filler-img.fullWidth {
   padding-left: 0;
   padding-right: 0;
   margin-left: auto;
@@ -412,7 +412,7 @@ section.img-filler-section {
 }
 
 @media (min-width: 1050px) {
-  .img-filler-img.fullWidth.s-GIWVz70Z76TB {
+  .img-filler-img.fullWidth {
     margin-left: 32px;
   }
 }
