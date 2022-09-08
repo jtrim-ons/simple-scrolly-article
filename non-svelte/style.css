@@ -10,8 +10,6 @@
   font-weight: 700;
 }
 
-/* GLOBALS */
-
 html,body {
   position: relative;
   width: 100%;
@@ -29,8 +27,6 @@ body {
   line-height: 1.5;
   word-wrap: break-word;
 }
-
-/* COMPONENTS */
 
 a {
   color: #206095;
@@ -102,7 +98,12 @@ img {
   vertical-align: middle;
 }
 
-/* CLASSES */
+.census-gradient {
+  color: #fff;
+  background-color: #206095;
+  background-image: linear-gradient(to right, #2e3d8b , #8c1e7f);
+  background-attachment: fixed;
+}
 
 .col-wide {
   width: 100%;
@@ -150,43 +151,33 @@ img {
   margin: calc(.5vw + .5em) 0;
 }
 
-/* SCROLL-SPECIFIC ELEMENTS */
-
-[slot="foreground"] section {
-  /* padding: 100vh 0 100vh 0; */
-}
-
-[slot="foreground"] section + section {
-  /* padding: 0 0 100vh 0; */
-}
-
-[slot="foreground"] section div {
+.foreground section div {
   padding: 12px 24px 30px 24px;
   position: relative;
 }
 
-[slot="foreground"] section div.text-column {
+.foreground section div.text-column {
   padding-top: 36px;
   padding-bottom: 60px;
 }
 
-[slot="foreground"] section div.text-column.less-padding-after {
+.foreground section div.text-column.less-padding-after {
   padding-bottom: 18px;
 }
 
-[slot="foreground"] section div.text-column.less-padding-before {
+.foreground section div.text-column.less-padding-before {
   padding-top: 3px;
 }
 
-[slot="foreground"] section div p {
+.foreground section div p {
   margin: 0;
 }
 
-[slot="foreground"] section div p + p {
+.foreground section div p + p {
   margin-top: 18px;
 }
 
-[slot="foreground"] section div h2,[slot="foreground"] section div h3 {
+.foreground section div h2,.foreground section div h3 {
   margin: 10px 0 20px 0;
 }
 
@@ -223,10 +214,6 @@ div.img-filler-text p {
 }
 
 @media (min-width: 992px) {
-  div.progress-bar {
-    display: block;
-  }
-
   .col-wide {
     padding: 0 24px;
   }
@@ -280,8 +267,6 @@ nav .logo {
   }
 }
 
-
-
 footer {
   padding-bottom: 72px;
   padding-top: 36px;
@@ -328,8 +313,6 @@ footer .logo-img {
 footer a .logo-img:hover {
   cursor: pointer;
 }
-
-
 
 .v-padded.s-jB14qlvOq3Qq {
   box-sizing: border-box;
@@ -408,10 +391,6 @@ section.s-l1TQzc9plh7y.s-l1TQzc9plh7y {
   color: #414042;
 }
 
-
-
-
-
 .img-filler-img.fullWidth.s-GIWVz70Z76TB {
   padding-left: 0;
   padding-right: 0;
@@ -425,4 +404,3 @@ section.s-l1TQzc9plh7y.s-l1TQzc9plh7y {
     margin-left: 32px;
   }
 }
-
