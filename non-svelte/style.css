@@ -410,3 +410,29 @@ section.img-filler-section {
   margin-right: auto;
   max-width: 1000px;
 }
+
+.grid-ms {
+  display: grid;
+  display: -ms-grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  margin-top: 40px;
+}
+.grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100%);
+  margin: 40px 0 0 0;
+}
+.grid-narrow {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+}
+.grid-medium {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+}
+.grid-wide {
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)) !important;
+}
+.grid > div {
+  min-height: inherit;
+}
